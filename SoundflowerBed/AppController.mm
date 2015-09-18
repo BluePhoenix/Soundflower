@@ -868,12 +868,13 @@ MySleepCallBack(void * x, io_service_t y, natural_t messageType, void * messageA
 	
 	[self buildDeviceList];
 	
-	mSbItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+	mSbItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSSquareStatusItemLength];
 	[mSbItem retain];
 	
 	//[sbItem setTitle:@"ее"];
-	[mSbItem setImage:[NSImage imageNamed:@"menuIcon"]];
-	[mSbItem setHighlightMode:YES];
+    NSImage *icon = [NSImage imageNamed:@"menuIcon"];
+    [icon setTemplate:YES];
+    mSbItem.button.image = icon;
 	
 	[self buildMenu];
 	
