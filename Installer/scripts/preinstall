@@ -1,6 +1,11 @@
 #!/bin/bash
 
-echo "unload the old soundflower"
+echo "unload the old soundflower from /System/Library/Extensions, which should no longer be used"
 if [ -e /System/Library/Extensions/Soundflower.kext ]
 then kextunload -q /System/Library/Extensions/Soundflower.kext
+fi
+
+echo "unload the old soundflower from /Library/Extensions"
+if [ -e /Library/Extensions/Soundflower.kext ]
+then kextunload -q /Library/Extensions/Soundflower.kext
 fi
