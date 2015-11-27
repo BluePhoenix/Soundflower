@@ -2,7 +2,7 @@
 
 ###################################################################
 # build Soundflower, install it, and start it
-# installs to /System/Library/Extensions
+# installs to /Library/Extensions
 # do NOT install to /Library/Extensions -- on OS 10.9 this location requires kext to be signed,
 #     and a signed kext will NOT load on OS 10.8 or earlier
 # requires admin permissions and will ask for your password

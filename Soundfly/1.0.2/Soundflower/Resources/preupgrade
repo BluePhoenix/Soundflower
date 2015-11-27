@@ -5,8 +5,8 @@
 # -- so am calling it twice to make sure
 
 system("echo 'kext preupgrade script-----'");
-system("sudo kextunload /System/Library/Extensions/Soundflower.kext");
-system("sudo kextunload /System/Library/Extensions/Soundflower.kext");
-system("sudo rm -rf /System/Library/Extensions/Soundflower.kext");
+system("sudo kextunload /Library/Extensions/Soundflower.kext");
+system("sudo kextunload /Library/Extensions/Soundflower.kext");
+system("sudo rm -rf /Library/Extensions/Soundflower.kext");
 
 exit(0);

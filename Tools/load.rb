@@ -2,7 +2,7 @@
 
 #################################################################
 # build Soundflower, install it, and start it
-# installs to /System/Library/Extensions
+# installs to /Library/Extensions
 # requires admin permissions and will ask for your password
 #################################################################
 
@@ -29,20 +29,20 @@ Dir.chdir libdir        # change to libdir so that requires work
 @svn_root = ".."
 
 puts "  Unloading and removing existing Soundflower.kext"
-if File.exists?("/System/Library/Extensions/Soundflower.kext")
+if File.exists?("/Library/Extensions/Soundflower.kext")
     puts "    first unload (will often fail, but will cause Soundflower's performAudioEngineStop to be called)"
-    `sudo kextunload /System/Library/Extensions/Soundflower.kext`
+    `sudo kextunload /Library/Extensions/Soundflower.kext`
     puts "    second unload (this one should work)"
-    `sudo kextunload /System/Library/Extensions/Soundflower.kext`
+    `sudo kextunload /Library/Extensions/Soundflower.kext`
     puts "    removing"
-    puts `sudo rm -rf /System/Library/Extensions/Soundflower.kext`
+    puts `sudo rm -rf /Library/Extensions/Soundflower.kext`
 end
 
 if (ARGV[0]!="unload" && ARGV[0]!="-unload" && ARGV[0]!="u" && ARGV[0]!="-u")
-    puts "  Copying to /System/Library/Extensions and loading kext"
-    `sudo cp -rv "#{@svn_root}/Build/InstallerRoot/Library/Extensions/Soundflower.kext" /System/Library/Extensions`
-    `sudo kextload -tv /System/Library/Extensions/Soundflower.kext`
-    `sudo touch /System/Library/Extensions`
+    puts "  Copying to /Library/Extensions and loading kext"
+    `sudo cp -rv "#{@svn_root}/Build/InstallerRoot/Library/Extensions/Soundflower.kext" /Library/Extensions`
+    `sudo kextload -tv /Library/Extensions/Soundflower.kext`
+    `sudo touch /Library/Extensions`
 end
 
 puts "  Done."
