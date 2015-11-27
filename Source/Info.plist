@@ -7,11 +7,11 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Version ${MODULE_VERSION} copyright © 2004-2012 Cycling &apos;74 © 2015 CarlosRDomin</string>
+	<string>Version ${MODULE_VERSION} copyright © 2004-2012 Cycling '74 © 2015 CarlosRDomin</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.Cycling74.driver.Soundflower</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
