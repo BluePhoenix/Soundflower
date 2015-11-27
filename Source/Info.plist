@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>Soundflower</string>
+	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleGetInfoString</key>
 	<string>Version ${MODULE_VERSION} copyright © 2004-2012 Cycling &apos;74 © 2015 CarlosRDomin</string>
 	<key>CFBundleIconFile</key>
@@ -15,15 +15,15 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Soundflower</string>
+	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>${MODULE_VERSION}</string>
+	<string>2.0b2</string>
 	<key>CFBundleSignature</key>
 	<string>sFlo</string>
 	<key>CFBundleVersion</key>
-	<string>${MODULE_VERSION}</string>
+	<string>2</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>PhantomAudioDriver</key>
@@ -76,7 +76,7 @@
 					<key>BlockSize</key>
 					<integer>8192</integer>
 					<key>Description</key>
-					<string>Soundflower (${NUM_CHANS}ch)</string>
+					<string>Soundflower (64ch)</string>
 					<key>Formats</key>
 					<array>
 						<dict>
