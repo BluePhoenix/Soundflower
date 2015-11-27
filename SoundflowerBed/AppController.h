@@ -31,8 +31,7 @@
     
     AudioDeviceID   mSuspended2chDeviceID;
     AudioDeviceID   mSuspended16chDeviceID;
-
-    AudioDeviceID				mDefaultDevice; // Id of the built-in device to use as the default audio output if Soundflower is quit
+	
 	AudioDeviceID				mSoundflower2Device;
 	AudioDeviceID				mSoundflower16Device;
 	

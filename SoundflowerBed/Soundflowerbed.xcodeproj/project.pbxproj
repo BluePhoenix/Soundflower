@@ -30,8 +30,6 @@
 		222FE3490EBB6D9900FD13FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		222FE34A0EBB6D9900FD13FC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F591DD8D0310AAC801FEEC38 /* CoreAudio.framework */; };
 		222FE34B0EBB6D9900FD13FC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E9CD2F08E78DA30024DA5B /* IOKit.framework */; };
-		76303DF61AB829D300FF14B2 /* sunflower_small.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 76303DF41AB829D300FF14B2 /* sunflower_small.tiff */; };
-		76303DF71AB829D300FF14B2 /* sunflower-icon_small.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 76303DF51AB829D300FF14B2 /* sunflower-icon_small.tiff */; };
 		EB6C9F5D175A3004003CD86F /* VolumeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB6C9F5C175A3004003CD86F /* VolumeView.xib */; };
 		EB6C9F60175A3052003CD86F /* VolumeView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB6C9F5E175A3052003CD86F /* VolumeView.h */; };
 		EB6C9F61175A3052003CD86F /* VolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6C9F5F175A3052003CD86F /* VolumeView.m */; };
@@ -51,8 +49,6 @@
 		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		76303DF41AB829D300FF14B2 /* sunflower_small.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sunflower_small.tiff; sourceTree = "<group>"; };
-		76303DF51AB829D300FF14B2 /* sunflower-icon_small.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "sunflower-icon_small.tiff"; sourceTree = "<group>"; };
 		C9CCA5E606ED143E0076FAC2 /* sf16.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sf16.tiff; sourceTree = "<group>"; };
 		C9CCA5E706ED143E0076FAC2 /* sf2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sf2.tiff; sourceTree = "<group>"; };
 		C9CFAC1E06EFA390001BE11F /* appIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appIcon.icns; sourceTree = "<group>"; };
@@ -165,8 +161,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				76303DF41AB829D300FF14B2 /* sunflower_small.tiff */,
-				76303DF51AB829D300FF14B2 /* sunflower-icon_small.tiff */,
 				10BE973C1BAC3629007CB6AF /* menuIcon.png */,
 				10BE973D1BAC3629007CB6AF /* menuIcon@2x.png */,
 				C9CFAC1E06EFA390001BE11F /* appIcon.icns */,
@@ -258,7 +252,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76303DF61AB829D300FF14B2 /* sunflower_small.tiff in Resources */,
 				222FE33A0EBB6D9900FD13FC /* MainMenu.nib in Resources */,
 				222FE33B0EBB6D9900FD13FC /* InfoPlist.strings in Resources */,
 				10BE973F1BAC3629007CB6AF /* menuIcon@2x.png in Resources */,
@@ -266,7 +259,6 @@
 				222FE33D0EBB6D9900FD13FC /* sf2.tiff in Resources */,
 				10BE973E1BAC3629007CB6AF /* menuIcon.png in Resources */,
 				222FE33F0EBB6D9900FD13FC /* appIcon.icns in Resources */,
-				76303DF71AB829D300FF14B2 /* sunflower-icon_small.tiff in Resources */,
 				EB6C9F5D175A3004003CD86F /* VolumeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

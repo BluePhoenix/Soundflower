@@ -46,8 +46,6 @@
 #include <CoreServices/CoreServices.h>
 #include <CoreAudio/CoreAudio.h>
 #include <vector>
-//#include <algorithm>    // std::sort
-#include <map>
 
 class AudioDeviceList {
 public:
@@ -62,42 +60,12 @@ public:
 
 	DeviceList &GetList() { return mDevices; }
 
-    enum {kAudioDeviceTransportTypeHeadphones = 'hdpn' };
-    typedef std::map<UInt32, UInt8> priorityMap;
-    static priorityMap priorityTransportType;
-    DeviceList &SortList(bool (*sortFunction)(Device&, Device&) = sortFun) { std::sort(mDevices.begin(), mDevices.end(), sortFunction); return mDevices; }
-
 protected:
 	void		BuildList();
 	void		EraseList();
 
-	bool		mInputs;
-	DeviceList	mDevices;
-
-    static priorityMap iniPriorityMap() {
-        priorityMap m;
-
-        m[kAudioDeviceTransportTypeHeadphones]      = 7;
-        m[kAudioDeviceTransportTypeBluetooth]       = 6;
-        m[kAudioDeviceTransportTypeBluetoothLE]     = 6;
-        m[kAudioDeviceTransportTypeHDMI]            = 5;
-        m[kAudioDeviceTransportTypeDisplayPort]     = 4;
-        m[kAudioDeviceTransportTypeThunderbolt]     = 4;
-        m[kAudioDeviceTransportTypeFireWire]        = 4;
-        m[kAudioDeviceTransportTypeUSB]             = 4;
-        m[kAudioDeviceTransportTypeBuiltIn]         = 3;
-        m[kAudioDeviceTransportTypeAirPlay]         = 2;
-        m[kAudioDeviceTransportTypePCI]             = 1;
-        m[kAudioDeviceTransportTypeAggregate]       = 1;
-        m[kAudioDeviceTransportTypeAutoAggregate]   = 1;
-        m[kAudioDeviceTransportTypeAVB]             = 1;
-        m[kAudioDeviceTransportTypeVirtual]         = 1;
-        m[kAudioDeviceTransportTypeUnknown]         = 0;
-
-        return m;
-    }
-
-    static bool sortFun(Device& x, Device& y);
+	bool				mInputs;
+	DeviceList			mDevices;
 	
 };
 
