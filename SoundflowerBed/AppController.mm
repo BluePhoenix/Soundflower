@@ -900,6 +900,7 @@ MySleepCallBack(void * x, io_service_t y, natural_t messageType, void * messageA
     [slider setAction:@selector(setVolume2ch:)];
     mVolumeViewController16ch = [[VolumeViewController alloc] initWithNibName:@"VolumeView" bundle:nil];
 
+<<<<<<< HEAD
     
     [self buildDeviceList];
     

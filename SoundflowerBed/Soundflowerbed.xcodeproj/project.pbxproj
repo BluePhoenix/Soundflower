@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10BE973E1BAC3629007CB6AF /* menuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BE973C1BAC3629007CB6AF /* menuIcon.png */; settings = {ASSET_TAGS = (); }; };
+		10BE973F1BAC3629007CB6AF /* menuIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BE973D1BAC3629007CB6AF /* menuIcon@2x.png */; settings = {ASSET_TAGS = (); }; };
 		222FE3330EBB6D9900FD13FC /* AppController.h in Headers */ = {isa = PBXBuildFile; fileRef = F591DD850310A6BE01FEEC38 /* AppController.h */; };
 		222FE3340EBB6D9900FD13FC /* AudioDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F591DDB2031157A901FEEC38 /* AudioDevice.h */; };
 		222FE3350EBB6D9900FD13FC /* AudioThruEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F591DDB60311589801FEEC38 /* AudioThruEngine.h */; };
@@ -17,7 +19,6 @@
 		222FE33B0EBB6D9900FD13FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		222FE33C0EBB6D9900FD13FC /* sf16.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C9CCA5E606ED143E0076FAC2 /* sf16.tiff */; };
 		222FE33D0EBB6D9900FD13FC /* sf2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C9CCA5E706ED143E0076FAC2 /* sf2.tiff */; };
-		222FE33E0EBB6D9900FD13FC /* menuIcon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C9CCA5E806ED143E0076FAC2 /* menuIcon.tiff */; };
 		222FE33F0EBB6D9900FD13FC /* appIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C9CFAC1E06EFA390001BE11F /* appIcon.icns */; };
 		222FE3410EBB6D9900FD13FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		222FE3420EBB6D9900FD13FC /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F591DD860310A6BE01FEEC38 /* AppController.mm */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		10BE973C1BAC3629007CB6AF /* menuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuIcon.png; sourceTree = "<group>"; };
+		10BE973D1BAC3629007CB6AF /* menuIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuIcon@2x.png"; sourceTree = "<group>"; };
 		222FE3510EBB6D9900FD13FC /* Soundflowerbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundflowerbed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22952B1E104EC967003AF61F /* Soundflower.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Soundflower.xcconfig; path = ../Source/Soundflower.xcconfig; sourceTree = SOURCE_ROOT; };
 		229B366F0EDC1DB500623222 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,7 +55,6 @@
 		76303DF51AB829D300FF14B2 /* sunflower-icon_small.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "sunflower-icon_small.tiff"; sourceTree = "<group>"; };
 		C9CCA5E606ED143E0076FAC2 /* sf16.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sf16.tiff; sourceTree = "<group>"; };
 		C9CCA5E706ED143E0076FAC2 /* sf2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sf2.tiff; sourceTree = "<group>"; };
-		C9CCA5E806ED143E0076FAC2 /* menuIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = menuIcon.tiff; sourceTree = "<group>"; };
 		C9CFAC1E06EFA390001BE11F /* appIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appIcon.icns; sourceTree = "<group>"; };
 		C9E9CD2F08E78DA30024DA5B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		EB6C9F5C175A3004003CD86F /* VolumeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VolumeView.xib; sourceTree = "<group>"; };
@@ -165,10 +167,11 @@
 			children = (
 				76303DF41AB829D300FF14B2 /* sunflower_small.tiff */,
 				76303DF51AB829D300FF14B2 /* sunflower-icon_small.tiff */,
+				10BE973C1BAC3629007CB6AF /* menuIcon.png */,
+				10BE973D1BAC3629007CB6AF /* menuIcon@2x.png */,
 				C9CFAC1E06EFA390001BE11F /* appIcon.icns */,
 				C9CCA5E606ED143E0076FAC2 /* sf16.tiff */,
 				C9CCA5E706ED143E0076FAC2 /* sf2.tiff */,
-				C9CCA5E806ED143E0076FAC2 /* menuIcon.tiff */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 				EB6C9F5C175A3004003CD86F /* VolumeView.xib */,
 				229B366F0EDC1DB500623222 /* Info.plist */,
@@ -258,9 +261,10 @@
 				76303DF61AB829D300FF14B2 /* sunflower_small.tiff in Resources */,
 				222FE33A0EBB6D9900FD13FC /* MainMenu.nib in Resources */,
 				222FE33B0EBB6D9900FD13FC /* InfoPlist.strings in Resources */,
+				10BE973F1BAC3629007CB6AF /* menuIcon@2x.png in Resources */,
 				222FE33C0EBB6D9900FD13FC /* sf16.tiff in Resources */,
 				222FE33D0EBB6D9900FD13FC /* sf2.tiff in Resources */,
-				222FE33E0EBB6D9900FD13FC /* menuIcon.tiff in Resources */,
+				10BE973E1BAC3629007CB6AF /* menuIcon.png in Resources */,
 				222FE33F0EBB6D9900FD13FC /* appIcon.icns in Resources */,
 				76303DF71AB829D300FF14B2 /* sunflower-icon_small.tiff in Resources */,
 				EB6C9F5D175A3004003CD86F /* VolumeView.xib in Resources */,
