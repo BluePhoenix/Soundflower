@@ -41,6 +41,11 @@
 
 - (void)awakeFromNib
 {
+    NSString *appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleExecutable"];
+    NSString *version = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+    
+    NSString *nameAndVersion = [NSString stringWithFormat:@"%@ %@", appName, version];
+    [appNameAndVersionTextField setStringValue:nameAndVersion];
 }
 
 - (void)doAbout

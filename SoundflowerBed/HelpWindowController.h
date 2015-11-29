@@ -42,6 +42,7 @@
 @interface HelpWindowController : NSWindowController
 {
 	IBOutlet NSTextView *mTextView;
+    IBOutlet NSTextField *appNameAndVersionTextField;
 }
 
 - (void)doAbout;

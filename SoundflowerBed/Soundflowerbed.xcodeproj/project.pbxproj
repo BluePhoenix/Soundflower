@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10BE973E1BAC3629007CB6AF /* menuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BE973C1BAC3629007CB6AF /* menuIcon.png */; settings = {ASSET_TAGS = (); }; };
-		10BE973F1BAC3629007CB6AF /* menuIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BE973D1BAC3629007CB6AF /* menuIcon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		10BE973E1BAC3629007CB6AF /* menuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BE973C1BAC3629007CB6AF /* menuIcon.png */; };
+		10BE973F1BAC3629007CB6AF /* menuIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BE973D1BAC3629007CB6AF /* menuIcon@2x.png */; };
 		222FE3330EBB6D9900FD13FC /* AppController.h in Headers */ = {isa = PBXBuildFile; fileRef = F591DD850310A6BE01FEEC38 /* AppController.h */; };
 		222FE3340EBB6D9900FD13FC /* AudioDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F591DDB2031157A901FEEC38 /* AudioDevice.h */; };
 		222FE3350EBB6D9900FD13FC /* AudioThruEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F591DDB60311589801FEEC38 /* AudioThruEngine.h */; };
