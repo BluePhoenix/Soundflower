@@ -51,3 +51,4 @@ Specifically, you edit the MODULE_VERSION entry to set it.  All other places whe
 
 Soundflower is licensed under the terms of the MIT license.  
 For details please refer to the accompanying 'License.txt' file distributed with Soundflower.
+
