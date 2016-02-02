@@ -1,6 +1,17 @@
 [![Build Status](https://travis-ci.org/InfInt/Soundflower.svg?branch=master)](https://travis-ci.org/InfInt/Soundflower)
 
 # Soundflower Source ReadMe
+=======
+
+** JUST LOOKING FOR SOUNDFLOWER INSTALLER?? **
+you can find the lastest version here: https://github.com/mattingalls/Soundflower/releases/tag/2.0b2
+
+
+
+
+
+
+** INSTRUCTIONS TO BUILD SOUNDFLOWER YOURSELF **
 
 Originally by ma++ ingalls for Cycling'74
 matt@sfsound.org
